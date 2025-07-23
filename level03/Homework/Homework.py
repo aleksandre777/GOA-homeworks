@@ -49,4 +49,4 @@ number = 10
 print(name*number)  
 
 # დავალება 6 
-print("aleksandre"+20)
+print("aleksandre"+20) # სტრინგ ტიპის მონაცემს ინტეჯერი ვერ დაემატება და ტერმინალში ვიღებთ ერორს 

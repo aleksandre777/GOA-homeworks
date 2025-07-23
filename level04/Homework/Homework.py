@@ -46,3 +46,9 @@ print(int(num1+num2+num3+num4+num5)/5)
 
 
 
+name=input() 
+last_name=input()
+age=input() 
+height=input()
+weight=input() 
+print(name+last_name+age+height+weight) 

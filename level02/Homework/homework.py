@@ -1,15 +1,66 @@
-# ჩვენ ვისწავლეთ მონაცემთა ტიპები რომლებიც როგორც თავიანთი ფუნქციით ასევე დაწერითაც გამოირჩვეიან. ასეთი 4 ტიპის მონაცემია
-# ეს არის პრინტი და ინტეჯერი,print and integer 
-print("Goal oriented academy") 
-# ეს არის ინტეჯერი,integer - აღნიშნავს ნატურალურ რიცხვებს
-print(20,30,50,90) 
-# ეს არის ფლოატი,float - აღნიშნავს წილად რიცხვებს
-print(14.25,30.45) 
-# ეს არის ბულეანი,Boolean - გადაეცემა მხოლოდ ორი მნიშვნელობა:yes or no
-print("yes or no") 
+num1= 30
+num2= 90
+num3= num1 + num2 
+print(num3) 
 
-#        ცვლადი არის იგივე ყუთი რომელშიც სხვადასხვა ინფორმაციას ვინახავთ for example:
+num1 = 30 
+num2 = 90
+num3 = 90*30
+print(num3)
 
-name: 'aleksnadre' 
-age: 13
-height: 162
+num1 = 30 
+num2 = 90
+num3 = 90/30
+print(num3)
+
+num1 = 30 
+num2 = 90
+num3 = 90 - 30
+print(num3) 
+
+# string 
+city = "paris"
+car = "BMW"
+sport = "football" 
+country = "France" 
+
+# integer 
+year = 2025
+Myheight = 163 
+age = 12
+kg = 50 
+
+# float 
+move = 1.30   # Hour
+planetickets = 200.50
+Bankbalance = 10.80
+Mousesize = 15.10
+
+name1 = "giorgi"
+name2 = "saba" 
+print('giorgis'+"saba")        #მოქმედებას როდესაც სტრინგებს ერთმანეთთან ვამატებთ ეწოდება "კონკატინაცია" 
+
+name1 = "giorgi"
+name2 = 'saba'
+name3 = "goga"
+name4 = "nika"
+name5 = "leqso"
+sentance = name1+name2+name3+name4+name5 
+print(sentance) 
+
+
+integer = 80
+float = 40.50
+multiplication = 80*40.50 
+print(multiplication) 
+
+
+integer = 80
+float = 40.50
+sum = 80+40.50 
+print(sum) 
+
+integer = 80
+float = 40.50
+diffrance = 80-40.50 
+print(diffrance) 
